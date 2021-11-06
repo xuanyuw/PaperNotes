@@ -21,7 +21,7 @@ jobs:
       - name: checkout  notes
         uses: actions/checkout@v2
         with:
-          ref: source
+          ref: main
           path: contentRepo
           persist-credentials: false
 
