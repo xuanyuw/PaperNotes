@@ -42,6 +42,6 @@ jobs:
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.GH_PAT }}
+          personal_token: ${{ secrets.GITHUBACTIONSTOKEN }}
           publish_branch: master
           publish_dir: NetNoteRepo/NetNote/dist
