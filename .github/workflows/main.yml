@@ -36,7 +36,7 @@ jobs:
       - name: install & generate
         run: |
           cp -r contentRepo/* NetNoteRepo
-          cd NetNoteRepo/NetNote
+          cd NetNoteRepo
           npm install
           npm run generate
       - name: deploy
